@@ -9,21 +9,21 @@ sections:
     actions:
       - label: Learn More
         url: /features
-        style: primary
+        style: secondary
       - label: Contact Us
         url: /contact
         style: secondary
     align: left
-    image: images/hero.svg
     image_alt: Hero placeholder image
     image_position: right
     has_background: true
     background:
-      background_color: blue
+      background_color: gray
       background_image: images/diagonal-lines.svg
       background_image_opacity: 20
       background_image_size: auto
       background_image_repeat: repeat
+    image: /images/hero.svg
   - type: features_section
     title: Features
     features:
@@ -33,7 +33,7 @@ sections:
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla.
         align: left
-        image: images/feature.svg
+        image: /images/feature.svg
         image_alt: Feature 1 placeholder image
         image_position: right
         actions:
